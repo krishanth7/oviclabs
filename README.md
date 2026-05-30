@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# OVIC Labs
+
+Pioneering the next frontier in autonomous technology, enterprise robotics, and intelligence systems.
+
+---
+
+## Core Engineering Pillars
+
+OVIC Labs designs fail-safe, scalable physical systems built around three primary operational paradigms:
+
+*   **Advanced Mobility**: Custom-engineered physical architectures and versatile multi-terrain locomotion systems optimized for complex operations.
+*   **Robust Security**: Hardened system designs incorporating state-of-the-art multi-sensor safety vectors and end-to-end fail-safe systems.
+*   **Universal Command**: High-scale cloud orchestration frameworks enabling secure, real-time fleet administration globally.
+
+---
+
+## Technology Stack
+
+This project is built using a modern, performant web technology stack designed for extreme speed and fluid interactivity:
+
+*   **Core Framework**: [Next.js](https://nextjs.org/) (Page Router / App Router optimized)
+*   **Language**: [TypeScript](https://www.typescriptlang.org/) (Strict typings)
+*   **Animations**: [Framer Motion](https://www.framer.com/motion/) (High-performance, physics-based springs and custom animations)
+*   **Styling**: [Tailwind CSS v4](https://tailwindcss.com/) (Next-generation high-speed CSS engine)
+*   **Icons**: [Lucide React](https://lucide.dev/) (Refined vector iconography)
+
+---
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Ensure you have [Node.js](https://nodejs.org/) (v18.0.0 or higher) installed on your system.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/krishanth7/oviclabs.git
+    cd oviclabs
+    ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2.  Install dependencies:
+    ```bash
+    npm install
+    ```
 
-## Learn More
+3.  Launch the local development environment:
+    ```bash
+    npm run dev
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+4.  Open [http://localhost:3000](http://localhost:3000) with your browser to experience the live platform.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## License
 
-## Deploy on Vercel
+This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for details.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Security
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+For security policies and instructions on reporting vulnerabilities, please consult the [SECURITY.md](SECURITY.md) guidelines.
