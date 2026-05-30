@@ -35,11 +35,11 @@ export default function Home() {
   return (
     <div 
       onMouseMove={handleMouseMove}
-      className="fixed inset-0 z-[9999] bg-[#ffffff] text-neutral-900 flex flex-col justify-between overflow-hidden font-sans select-none"
+      className="relative min-h-screen z-[9999] bg-[#ffffff] text-neutral-900 flex flex-col justify-between overflow-y-auto font-sans select-none"
     >
       {/* Subtle Premium spotlight tracker */}
       <motion.div
-        className="absolute w-[800px] h-[800px] rounded-full pointer-events-none blur-[150px] opacity-45 mix-blend-multiply transition-opacity duration-700"
+        className="fixed w-[800px] h-[800px] rounded-full pointer-events-none blur-[150px] opacity-45 mix-blend-multiply transition-opacity duration-700 z-0"
         style={{
           background: 'radial-gradient(circle, rgba(14,165,233,0.12) 0%, rgba(99,102,241,0.06) 40%, rgba(255,255,255,0) 70%)',
           left: smoothX,
@@ -50,10 +50,10 @@ export default function Home() {
       />
 
       {/* Corporate Dot Matrix Background Pattern */}
-      <div className="absolute inset-0 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:24px_24px] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_50%,#000_80%,transparent_100%)] pointer-events-none opacity-70" />
+      <div className="fixed inset-0 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:24px_24px] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_50%,#000_80%,transparent_100%)] pointer-events-none opacity-70 z-0" />
 
       {/* Ambient Floating Bubble Loop Animation */}
-      <div className="absolute inset-0 overflow-hidden pointer-events-none z-0">
+      <div className="fixed inset-0 overflow-hidden pointer-events-none z-0">
         <motion.div
           animate={{
             x: [0, 80, -40, 0],
@@ -102,7 +102,7 @@ export default function Home() {
       <div className="relative w-full pt-8 z-20" />
 
       {/* MAIN CONTAINER: High-End Corporate Layout */}
-      <main className="relative flex-grow flex flex-col items-center justify-center px-6 z-10">
+      <main className="relative flex-grow flex flex-col items-center justify-center px-6 py-16 md:py-24 z-10">
         <div className="w-full max-w-4xl flex flex-col items-center">
           
           {/* Corporate Logo with Minimalist Platinum Ring */}
