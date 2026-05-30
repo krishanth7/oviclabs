@@ -23,12 +23,9 @@ export const metadata: Metadata = {
   creator: "OVIC Labs",
   publisher: "OVIC Labs International",
   icons: {
-    icon: [
-      { url: "/favicon.png", type: "image/png" },
-      { url: "/logo.png", type: "image/png" }
-    ],
+    icon: "/favicon.png",
     shortcut: "/favicon.png",
-    apple: "/logo.png",
+    apple: "/favicon.png",
   },
   openGraph: {
     title: "OVIC Labs | Autonomous Systems & Advanced Robotics",
